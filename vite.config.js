@@ -5,6 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: { port: 5175 },
-  base: "E-commerce-Site"
-
+  base: "/Vercel-Frontend/",
 });
